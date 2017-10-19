@@ -7,7 +7,7 @@ function destructivelyAppendKitten(name){
   return kittens
 }
 function destructivelyPrependKitten(name){
-  kittens.shift("Bob")
+  kittens.insertBefore(kitens[0],"Bob")
   return name
 }
 function destructivelyRemoveLastKitten(){
@@ -15,7 +15,7 @@ function destructivelyRemoveLastKitten(){
   return kittens
 }
 function destructivelyRemoveFirstKitten(){
-  kittens.unshift()
+  kittens.shift()
   return kittens
 }
 function appendKitten(name){
